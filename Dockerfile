@@ -8,7 +8,7 @@ RUN mkdir /mcr-install
 # Copy MCR
 # COPY MCR_R2016a_glnxa64_installer.zip /mcr-install
 # Download MCR
-RUN cd /mcr-install && wget -nv http://www.mathworks.com/supportfiiles/downloads/R2016a/deployment_files/R2016a/installers/glnxa64/MCR_R2016a_glnxa64_installer.zip
+RUN cd /mcr-install && wget -nv https://ssd.mathworks.com/supportfiles/downloads/R2016a/deployment_files/R2016a/installers/glnxa64/MCR_R2016a_glnxa64_installer.zip
 
 RUN cd /mcr-install && \
   unzip MCR_R2016a_glnxa64_installer.zip && \
